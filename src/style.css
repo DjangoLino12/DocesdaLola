@@ -4,6 +4,7 @@
 }
 body{
     background-image: url("img/fundo.png");
+  max-width: 100%;
 }
 
 
@@ -33,21 +34,27 @@ header .txt{
 header #SBV{
     font-family: 'Vibur', cursive;
     font-size: 4vw;
+    /* background-color: blanchedalmond; */
+    
 }
-header #search{
+header #search {
     margin-left: 7vw;
     font-size: 1.5vw;
-    color:#fff;
+    border-style: none;
     background-color: #FF1493;
-    padding: 0.2vw 4vw 0.2vw 4vw;
+    padding: 0.6vw 2vw;
     border-radius: 90px;
-    
+    text-align: center;
+}
+header ::placeholder{
+    color: #fff;
 }
 /* Fim Header */
 
 /* Produtos */
 .produtos{
     width: 100%;
+   /*  background-color: aqua; */
 }
 .produtos ol{
     width: 100%;
@@ -74,3 +81,26 @@ header #search{
     font-family: 'Fredoka One', cursive;
     margin: auto 1.6vw ;
 }
+/* Fim */
+/* Começo CApa First */
+.box-img-txt{
+    position: relative;
+}
+.box-img-txt img{
+    margin-top: 1.5vw;
+    max-width: 100%;
+}
+.text-block {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    max-width: 35vw;
+    font-size: 4.3vw;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid black;
+    color: black;
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    margin-right: 4vw;
+  }
+  /* Fim CApa First */
