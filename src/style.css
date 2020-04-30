@@ -11,6 +11,10 @@ body{
 
 
 /* Começo header */
+header ol li a {
+    text-decoration: none;
+    color: #000;
+}
 header{
     /* background-color: antiquewhite; */
     width: 100%;
@@ -54,6 +58,10 @@ header ::placeholder{
 /* Fim Header */
 
 /* Produtos */
+ .produtos ol li a{
+    text-decoration: none;
+    color: #fff;
+}
 .produtos{
     width: 100%;
    /*  background-color: aqua; */
@@ -89,8 +97,14 @@ header ::placeholder{
     width: 100%;
     margin: 1.5vw 0vw;
 }
+h1{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+      font-size: 5.5vw;
+      color: #000;
+}
   /* Promo */
-  h1{
+  h2{
       text-align: center;
     font-family: 'Fredoka One', cursive;
       font-size: 7vw;
@@ -136,3 +150,37 @@ header ::placeholder{
       margin: auto;
   }
   /* Final Promo cards */
+
+  /* Começo do Footer */
+footer{
+    padding: 0.5vw 1vw;
+    max-width: 100%;
+    background-color: #00BFFF;
+    display: flex;
+    justify-content: space-between;
+}
+footer ol{
+    list-style: none;
+    text-align: center;
+}
+footer ol li{
+    margin-bottom: 0.3vw;
+    max-width: 50vw;
+    
+    /* background-color: purple; */
+}
+footer .title{
+    font-family: 'Fredoka One', cursive;
+    color:#fff;
+    font-size: 2vw;
+}
+footer .sub-title{
+    font-family: 'Fredoka One', cursive;
+    color: #000;
+    font-size: 2vw;
+}
+footer img{
+    width: 10vw;
+    /* min-width: 1vw; */
+}
+  /* Fim do Footer */
